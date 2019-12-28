@@ -1,7 +1,6 @@
 const webpack = require('webpack');
 
-module.exports = {
-  mode: 'development', 
+module.exports = { 
   entry: './src/index.js',
   module: {
     rules: [
